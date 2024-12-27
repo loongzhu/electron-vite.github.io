@@ -8,7 +8,7 @@ Pre-Bundling is a feature of [vite-plugin-electron-renderer](https://github.com/
 
 <details>
   <summary>中文</summary>
-  <p>一般情况下。 Vite 的<a target="_blank" href="https://vitejs.dev/guide/dep-pre-bundling.html">预构建</a>会将所有第三方模块构建成 Web 格式，但它无法完全使用于 Electrn 渲染进程，尤其是 <code>C/C++</code> 扩展。 为此 <a target="_blank" href="https://github.com/electron-vite/vite-plugin-electron-renderer">vite-plugin-electron-renderer</a> 提供了适配 Electron 渲染进程的<a target="_blank" href="https://github.com/electron-vite/vite-plugin-electron-renderer#dependency-pre-bundling">预构建</a>。</p>
+  <p>一般情况下。 Vite 的<a target="_blank" href="https://vitejs.dev/guide/dep-pre-bundling.html">预构建</a>会将所有第三方模块构建成 Web 格式，但它无法完全使用于 Electron 渲染进程，尤其是 <code>C/C++</code> 扩展。 为此 <a target="_blank" href="https://github.com/electron-vite/vite-plugin-electron-renderer">vite-plugin-electron-renderer</a> 提供了适配 Electron 渲染进程的<a target="_blank" href="https://github.com/electron-vite/vite-plugin-electron-renderer#dependency-pre-bundling">预构建</a>。</p>
   <p> Pre-Bundling 是 <a target="_blank" href="https://github.com/electron-vite/vite-plugin-electron-renderer">vite-plugin-electron-renderer</a> 功能，即只在构建渲染进程时工作。</p>
 </details>
 
